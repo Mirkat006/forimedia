@@ -6,7 +6,7 @@
   <style>
 	.pipe {
 	  position: absolute;
-	  background-color: palegreen;
+	  background-color: var(--vscode-button-background);
 	}
   </style>
   

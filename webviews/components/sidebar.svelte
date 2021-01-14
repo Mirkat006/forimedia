@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { GameController } from "../Game/game";
-	import Pipe from './Pipe.svelte';
-	import Bird from './Bird.svelte';
+	import Pipe from './pipe.svelte';
+	import Bird from './bird.svelte';
 	const game = new GameController();
   
 	let frame = game.newGame();
@@ -23,12 +23,11 @@
   <style>
 	main {
 	  position: relative;
-	  border: solid black 1px;
 	  overflow: hidden;
-	  background-color: lightblue;
+	  font-size: bold;
 	}
 	#ground {
-		  background-color: brown;
+		  background-color: var(--vscode-button-foreground);
 		  width: 100%;
 		  position: absolute;
 		  bottom: 0;
@@ -41,17 +40,14 @@
 	  top: 50%;
 	  left: 50%;
 	  transform: translateX(-50%) translateY(-50%);
-	  font-family: monospace;
 	}
 	#init-screen h2 {
 	  text-align: center;
 	}
 	#init-screen button {
-	  font-family: monospace;
 	  font-size: 16px;
 	  border: none;
 	  border-radius: none;
-	  background-color: ghostwhite;
 	  padding: 10px;
 	  cursor: pointer;
 	  outline: none;
@@ -74,8 +70,6 @@
 	  z-index: 10;
 	  padding: 5px;
 	  user-select: none;
-	  color: grey;
-	  font-size: bold;
 	}
   </style>
   
@@ -92,9 +86,11 @@
 	<section id="init-screen">
 	  {#if frame.gameOver}
 		<h2>Game Over</h2>
-		<h2>Score {frame.score}</h2>
+		<br>
+		<h2>Score: {frame.score}</h2>
 	  {/if}
-	  <button on:click="{startGame}">Start Game</button>
+	  <br>
+	  <button on:click="{startGame}">New Game</button>
 	</section>
 	{/if}
   <section style="height: {frame.ground.height}px;" id="ground" ></section>

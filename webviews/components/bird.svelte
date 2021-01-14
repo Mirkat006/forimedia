@@ -6,8 +6,7 @@
   
   <style>
 	#bird {
-	  border: solid black 1px;
-	  background-color: yellow;
+	  background-color: var(--vscode-editorWarning-foreground);
 	  position: absolute;
 	}
   </style>
