@@ -1,10 +1,11 @@
 {
+  "publisher": "reideroliver1",
   "name": "flappy-code",
   "displayName": "Flappy Code",
   "description": "Flappy Bird integration for vscode.",
   "icon": "media/icon.png",
   "repository": "https://github.com/oli799/flappy-code",
-  "version": "0.0.1",
+  "version": "0.0.9",
   "engines": {
     "vscode": "^1.52.0"
   },
@@ -21,7 +22,7 @@
     "typescriptreact"
   ],
   "activationEvents": [
-    "onView:flappy-code-sidebar-view",
+    "onView:flappy-code-sidebar",
     "onCommand:flappy-code.leaderboard",
     "onCommand:flappy-code.refresh"
   ],
