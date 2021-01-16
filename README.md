@@ -1,65 +1,25 @@
-# flappy-code README
+# Flappy Code
 
-This is the README for your extension "flappy-code". After writing up a brief description, we recommend including the following sections.
+Fappy bird clone for VSCode.
 
-## Features
+![play](https://github.com/oli799/flappy-code/blob/main/media/flappy-code1.gif?raw=true)
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+![feature](https://github.com/oli799/flappy-code/blob/main/media/flappy-code2.gif?raw=true)
 
-For example if there is an image subfolder under your extension project workspace:
+## 🤝 Contributing
 
-\!\[feature X\]\(images/feature-x.png\)
+To contribute to this repository, feel free to create a new fork of the repository and submit a pull request.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+1. Fork / Clone and select the `main` branch.
+2. Create a new branch in your fork.
+3. Make your changes.
+4. Commit your changes, and push them.
+5. Submit a Pull Request [here](https://github.com/oli799/flappy-code/pulls)!
 
-## Requirements
+## 📋 License
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Extension Settings
+---
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Give a ⭐️ if you like it!

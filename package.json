@@ -2,12 +2,23 @@
   "name": "flappy-code",
   "displayName": "Flappy Code",
   "description": "Flappy Bird integration for vscode.",
+  "icon": "media/icon.png",
+  "repository": "https://github.com/oli799/flappy-code",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.52.0"
   },
   "categories": [
-    "Other"
+    "Other",
+    "Programming Languages"
+  ],
+  "keywords": [
+    "javascript",
+    "typescript",
+    "ts",
+    "js",
+    "javascriptreact",
+    "typescriptreact"
   ],
   "activationEvents": [
     "onView:flappy-code-sidebar-view",
