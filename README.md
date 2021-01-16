@@ -1,6 +1,6 @@
 # Flappy Code
 
-Fappy bird clone for VSCode.
+Flappy bird clone for VSCode.
 
 ![play](https://github.com/oli799/flappy-code/blob/main/media/flappy-code1.gif?raw=true)
 
