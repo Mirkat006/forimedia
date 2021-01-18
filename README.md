@@ -2,6 +2,10 @@
 
 Flappy bird clone for VSCode.
 
+## 🏃 Getting Started
+
+You can download from the [VSCode Marketplace.](https://marketplace.visualstudio.com/items?itemName=reideroliver1.flappy-code)
+
 ![play](https://github.com/oli799/flappy-code/blob/main/media/flappy-code1.gif?raw=true)
 
 ![feature](https://github.com/oli799/flappy-code/blob/main/media/flappy-code2.gif?raw=true)
